@@ -2,7 +2,7 @@ derechar = 5
 izquierda = 5
 escalones = 0
 
-def derecha(n):
+def    derecha(n):
   global escalones
   espaciosIzquierda = " " * derechar * escalones
   print(espaciosIzquierda + "-" * n + ">")
